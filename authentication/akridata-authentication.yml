@@ -1,0 +1,29 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.akridata.ai/docs/download-config-saas
+docs: https://docs.akridata.ai/docs/sdk-for-api-access
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - config
+  oauth2_flows: []
+schemes:
+- name: apiKey
+  type: apiKey
+  in: config
+  description: >-
+    Data Explorer authenticates SDK/CLI requests with an API key. The key is obtained
+    by downloading the SDK configuration from the Data Explorer profile/UI, then
+    supplied to the AkriDEClient (or the akride ingest CLI via -a) alongside the SaaS
+    endpoint. Example config: {"saas_endpoint": "https://app.akridata.ai",
+    "api_key": "<your-api-key>", "mode": "saas"}.
+  saas_endpoint: https://app.akridata.ai
+  client_class: AkriDEClient
+  config_docs: https://docs.akridata.ai/docs/download-config-saas
+  sources:
+  - https://pypi.org/project/akride/
+notes: >-
+  No published OpenAPI/securitySchemes; derived from the published SDK quickstart and
+  Data Explorer download-config documentation. No OAuth2/OIDC surface documented (API
+  key only), so scopes/ is intentionally skipped.
