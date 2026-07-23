@@ -1,0 +1,44 @@
+generated: '2026-07-17'
+method: searched
+source: https://pypi.org/project/akride/
+name: akride
+description: >-
+  First-party command-line interface bundled with the akride Python SDK / Docker
+  images for ingesting data into Akridata Data Explorer datasets.
+binary: akride
+install:
+- method: pip
+  command: pip install akride[cpu]
+- method: pip-gpu
+  command: pip install akride[gpu]
+- method: docker-cpu
+  command: docker pull akridata/akride:latest
+- method: docker-gpu
+  command: docker pull akridata/akride-gpu:latest
+commands:
+- name: ingest
+  summary: Ingest a directory of data into a Data Explorer dataset.
+  flags:
+  - name: -n
+    description: Dataset name (mutually exclusive with -d).
+  - name: -d
+    description: Dataset id (mutually exclusive with -n).
+  - name: -i
+    description: Input data path to ingest.
+  - name: -e
+    description: Data Explorer / SaaS endpoint (e.g. https://app.akridata.ai).
+  - name: -a
+    description: API key from the downloaded SDK config.
+examples:
+- description: Ingest a local data directory via the CPU Docker image.
+  command: >-
+    docker run -v ${PWD}/data:/data akridata/akride:latest akride ingest
+    -n <dataset_name> -i /data -e <de_endpoint> -a <api_key>
+- description: Ingest via the GPU Docker image.
+  command: >-
+    docker run --gpus=all -v ${PWD}/data:/data akridata/akride-gpu:latest akride ingest
+    -d <dataset_id> -i /data -e <de_endpoint> -a <api_key>
+notes: >-
+  The CLI binary is catalogued in packages/akridata-packages.yml. Command surface
+  captured from the published akride PyPI README; consult the SDK docs at
+  https://akridata-akride.readthedocs-hosted.com/en/latest/ for the full surface.

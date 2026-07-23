@@ -1,0 +1,32 @@
+generated: '2026-07-17'
+method: searched
+source: https://pypi.org/project/akride/
+packages:
+- language: python
+  registry: pypi
+  name: akride
+  url: https://pypi.org/project/akride/
+  install: pip install akride[cpu]
+  version: 0.7.3
+  summary: Data Explorer Client SDK
+  official: true
+  notes: >-
+    First-party Python SDK for Akridata Data Explorer. Also ships a GPU extra
+    (pip install akride[gpu]). Class AkriDEClient; SDK docs at
+    https://akridata-akride.readthedocs-hosted.com/en/latest/
+- language: docker
+  registry: dockerhub
+  name: akridata/akride
+  url: https://hub.docker.com/r/akridata/akride
+  install: docker pull akridata/akride:latest
+  official: true
+  notes: CPU Docker image bundling the akride ingest CLI.
+- language: docker
+  registry: dockerhub
+  name: akridata/akride-gpu
+  url: https://hub.docker.com/r/akridata/akride-gpu
+  install: docker pull akridata/akride-gpu:latest
+  official: true
+  notes: GPU Docker image bundling the akride ingest CLI.
+examples_repo: https://github.com/akridata-ai/akride-examples
+github_org: https://github.com/akridata-ai
