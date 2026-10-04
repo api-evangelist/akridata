@@ -52,9 +52,9 @@ modified: '2026-07-17'
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Data Curation
-- Machine-Learning
+- Machine Learning
 - Visual Inspection
 - Data Explorer
 - MLOps
@@ -67,6 +67,8 @@ tags_raw:
 - Visual Inspection
 - Data Explorer
 - MLOps
+- Computer-Vision
+- Machine-Learning
 apis:
 - name: Akridata Data Explorer API
   description: >-
