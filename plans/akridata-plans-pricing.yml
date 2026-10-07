@@ -1,0 +1,33 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://akridata.ai/pricing/
+sources:
+- https://akridata.ai/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: We offer flexible pricing based on deployment type (cloud or on-prem), number of inspection
+    stations or production lines, and data processing volume.
+published: false
+note: No numeric price is published on the pricing page; Pricing page lists three modular products with
+  no numeric prices; FAQ says pricing is flexible based on deployment type, inspection stations/lines,
+  and data volume, with custom quotes.
+plan_count: 3
+plans:
+- name: Vision Assist
+  price_text: Get in Touch
+  period: none
+- name: Vision Command
+  price_text: Get in Touch
+  period: none
+- name: Vision Copilot
+  price_text: Get in Touch
+  period: none
