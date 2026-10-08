@@ -31,3 +31,30 @@ plans:
 - name: Vision Copilot
   price_text: Get in Touch
   period: none
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Vision Assist
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Vision Command
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Vision Copilot
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
