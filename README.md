@@ -64,6 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Akridata is a company surfaced as a portfolio company of accel, partech and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Akridata builds AI-powered visual data and inspection tooling for data-centric AI teams and manufacturers. Its Data Explorer product helps ML engineers visualize large image and video datasets, detect and remove outliers, check class balance, sample and de-duplicate data, run image-based similarity search, curate and label training sets, and analyze model accuracy. Data Explorer ships a first-party Python SDK (akride) plus Docker images and an ingest CLI for programmatic access to catalogs, explore/analyze jobs, similarity search, labeling, and visualization job metadata against the SaaS endpoint at app.akridata.ai. Akridata also offers Vision Assist, Vision Command, and Vision Copilot for real-time AI visual inspection and defect detection across manufacturing, automotive, medical device, railway, and agriculture. The company was acquired by Dimaag-AI and originally surfaced as a portfolio company of Accel and Partech.
 
-Backed by: accel, partech — https://www.akridata.com/
+**Areas:** Company · Artificial Intelligence · Computer Vision · Data Curation · Machine Learning · Visual Inspection · Data Explorer · MLOps
+
+## Akridata on APIs.io
+
+Everything profiled for Akridata is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/akridata/](https://apis.io/providers/akridata/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Akridata Data Explorer API](https://apis.io/apis/akridata/akridata-data-explorer-api/) — Programmatic access to Akridata Data Explorer via the first-party Python SDK (akride) and ingest CLI: data/dataset registration, catalog operations, explore…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Akridata Authentication](https://apis.io/security/akridata/akridata-authentication/)
+- [Akridata Domain Security](https://apis.io/security/akridata/akridata-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Akridata Plans Pricing](https://apis.io/plans/akridata/akridata-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://akridata.ai/)
+- [Documentation](https://docs.akridata.ai/docs)
+- [Getting started](https://docs.akridata.ai/docs/quick-start)
+- [Pricing](https://akridata.ai/pricing/)
+- [Sign up](https://app.akridata.ai/)
+- [Support](https://akridata.ai/contact-us/)
+- [Blog](https://akridata.ai/blog/)
+- [Terms of service](https://akridata.ai/terms/)
+- [Privacy policy](https://akridata.ai/privacy/)
+- [GitHub](https://github.com/akridata-ai)
+
+## API Evangelist rating
+
+**Kin Score 33.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 48.8 |
+| Access clarity | 76.3 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/akridata/](https://apis.io/providers/akridata/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Akridata: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/akridata/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
